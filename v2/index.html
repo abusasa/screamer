@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АХАХВАХВХАВХАХАХВХАХВАХВХААХХХАХХАХХАХХВАХХВХАХАХВАХ</title>
+    <style>body,html{margin:0;height:100%;overflow:hidden}#overlay{width:100%;height:100%;position:absolute;background:black}video{width:100%;height:100%;position:absolute;object-fit:cover;display:none}</style>
+    <meta property="og:title" content="Сэкономьте 50% при покупке Valheim в Steam">
+    <meta property="og:description" content="Игра в жанре выживание, в которой вам предстоит исследовать огромный фэнтезийный мир, пропитанный скандинавской мифологией и культурой викингов.">
+    <meta property="og:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/capsule_616x353.jpg?t=1738051073">
+    <meta property="og:url" content="https://store.steampowered.com/app/892970/Valheim/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Steam">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Сэкономьте 50% при покупке Valheim в Steam">
+    <meta name="twitter:description" content="Игра в жанре выживание, в которой вам предстоит исследовать огромный фэнтезийный мир, пропитанный скандинавской мифологией и культурой викингов.">
+    <meta name="twitter:image" content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/capsule_616x353.jpg?t=1738051073">
+    <meta name="twitter:site" content="@steam">
+    <link rel="canonical" href="https://store.steampowered.com/app/892970/Valheim/">
+</head>
+<body>
+    <div id="overlay"></div>
+    <video id="video" src="video.mp4" autoplay loop muted></video>
+    <script>
+        document.getElementById('overlay').onclick=()=>{const v=document.getElementById('video');v.style.display='block';v.muted=false;v.play();document.getElementById('overlay').style.display='none';document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();}
+    </script>
+</body>
+</html>
